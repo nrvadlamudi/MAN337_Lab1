@@ -69,7 +69,7 @@ print(MostGoals)
 
 # 3
 
-# filter Home and Away by average attendance and average goals scored
+# filter Home by average attendance and average goals scored
 HomeAvg <- data %>%
     group_by(Home) %>%
     filter(Attendance != "NA") %>%
